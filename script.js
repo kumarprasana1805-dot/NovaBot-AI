@@ -145,27 +145,38 @@ function startWelcome() {
 
 function welcomeSpeech() {
 
+    welcomeText.innerHTML =
+    "Welcome to NovaBot Artificial Intelligence";
+
     const speech =
     new SpeechSynthesisUtterance(
-
         "Welcome to NovaBot Artificial Intelligence."
-
     );
 
     speech.lang = "en-US";
     speech.rate = 0.9;
     speech.pitch = 1;
 
-    welcomeText.innerHTML =
-    "Welcome to NovaBot Artificial Intelligence";
+    speechSynthesis.cancel();
 
-    speech.onend = () => {
+    try{
+
+        speechSynthesis.speak(speech);
+
+    }catch(e){
+
+        console.log(e);
+
+    }
+
+    // Voice chale ya na chale
+    // 4 second baad next screen
+
+    setTimeout(()=>{
 
         startLoading();
 
-    };
-
-    speechSynthesis.speak(speech);
+    },4000);
 
 }
 
@@ -1640,4 +1651,5 @@ function startMemoryAI(){
 
 // ======================================================
 // END OF SCRIPT
-// ======================================================
+// =====================================================
+}
