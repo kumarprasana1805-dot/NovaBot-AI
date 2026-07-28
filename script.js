@@ -1217,7 +1217,7 @@ async function getConversationReply(userMessage){
         const response =
         await fetch(
 
-            "http://localhost:3000/chat",
+            "/chat",
 
             {
 
