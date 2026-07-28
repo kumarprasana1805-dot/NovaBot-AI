@@ -60,11 +60,13 @@ let currentMode = "";
 // Start NovaBot
 // ======================================================
 
-window.onload = () => {
+document.addEventListener("DOMContentLoaded", () => {
+
+    console.log("DOM Loaded");
 
     startSplash();
 
-};
+});
 
 // ======================================================
 // Hide All Screens
@@ -145,6 +147,8 @@ function startWelcome() {
 
 function welcomeSpeech() {
 
+    console.log("Welcome Speech Started");
+
     welcomeText.innerHTML =
     "Welcome to NovaBot Artificial Intelligence";
 
@@ -159,24 +163,25 @@ function welcomeSpeech() {
 
     speechSynthesis.cancel();
 
-    try{
+    try {
 
         speechSynthesis.speak(speech);
 
-    }catch(e){
+    } catch (e) {
 
         console.log(e);
 
     }
 
-    // Voice chale ya na chale
-    // 4 second baad next screen
+    console.log("Timer Started");
 
-    setTimeout(()=>{
+    setTimeout(() => {
+
+        console.log("Loading Started");
 
         startLoading();
 
-    },4000);
+    }, 4000);
 
 }
 
@@ -1652,4 +1657,3 @@ function startMemoryAI(){
 // ======================================================
 // END OF SCRIPT
 // =====================================================
-}
