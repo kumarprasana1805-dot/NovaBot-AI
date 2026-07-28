@@ -12,6 +12,9 @@ app.use(cors({
 }));
 app.use(express.json());
 app.use(express.static("."));
+app.get("/", (req, res) => {
+    res.sendFile(process.cwd() + "/index.html");
+});
 const groq = new Groq({
     apiKey: process.env.GROQ_API_KEY,
 });
