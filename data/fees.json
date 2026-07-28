@@ -1,0 +1,26 @@
+{
+  "Nursery": "2500 rupees per month",
+  "LKG": "3025 rupes per month",
+  "UKG": "3025 rupees per month",
+
+  "Class1": "3285 rupess per month",
+  "Class2": "3285 rupess per month",
+  "Class3": "3430 rupess per month",
+  "Class4": "3430 rupess per month",
+  "Class5": "3430 rupess per month",
+
+  "Class6": "3670 rupees per month",
+  "Class7": "3670 rupees per month",
+  "Class8": "3930 rupees per month",
+
+  "Class9": "4365 rupees per month",
+  "Class10": "4365 rupees per month",
+
+  "Class11Science": "5300 rupees per month",
+  "Class11Commerce": "5095 rupees per month",
+  "Class11Arts": "5095 rupees per month",
+
+  "Class12Science": "5300 rupees per month",
+  "Class12Commerce": "5095 rupees per month",
+  "Class12Arts": "5095 rupees per month"
+}

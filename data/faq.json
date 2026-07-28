@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+
+    "topic": "Admission",
+
+    "keywords": [
+
+      "admission",
+
+      "apply",
+
+      "registration",
+
+      "enroll",
+
+      "join"
+
+    ],
+
+    "answer": ""
+  },
+
+  {
+    "id": 2,
+
+    "topic": "Fees",
+
+    "keywords": [
+
+      "fees",
+
+      "fee",
+
+      "payment",
+
+      "tuition"
+
+    ],
+
+    "answer": ""
+  },
+
+  {
+    "id": 3,
+
+    "topic": "Principal",
+
+    "keywords": [
+
+      "principal",
+
+      "head"
+
+    ],
+
+    "answer": ""
+  },
+
+  {
+    "id": 4,
+
+    "topic": "Timing",
+
+    "keywords": [
+
+      "timing",
+
+      "time",
+
+      "school time",
+
+      "office"
+
+    ],
+
+    "answer": ""
+  }
+]

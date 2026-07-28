@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NovaBot AI</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<!-- ========================= -->
+<!-- Splash Screen -->
+<!-- ========================= -->
+
+<div id="splash" class="screen">
+
+    <h1 class="robot-name">
+        NOVABOT
+    </h1>
+
+</div>
+
+<!-- ========================= -->
+<!-- Welcome Screen -->
+<!-- ========================= -->
+
+<div id="welcome" class="screen hidden">
+
+    <h2>
+        Welcome to a World where AI feels Familiar
+    </h2>
+
+    <p id="welcomeText"></p>
+
+</div>
+
+<!-- ========================= -->
+<!-- Loading Screen -->
+<!-- ========================= -->
+
+<div id="loading" class="screen hidden">
+
+    <div class="loader-circle"></div>
+
+    <h1 class="loadingText">
+
+        Initializing Artificial Intelligence...
+
+    </h1>
+
+    <p id="loadingStatus">
+
+        Loading AI Core...
+
+    </p>
+
+</div>
+
+<!-- ========================= -->
+<!-- AI Mode Selection -->
+<!-- ========================= -->
+
+<div id="modeScreen" class="screen hidden">
+
+    <h1 class="modeTitle">
+
+        Select AI Mode
+
+    </h1>
+
+    <div class="cards">
+
+        <div class="card" onclick="selectAI('Reception')">
+
+            <div class="icon">🏫</div>
+
+            <h2>Reception AI</h2>
+
+        </div>
+
+        <div class="card" onclick="selectAI('Conversation')">
+
+            <div class="icon">💬</div>
+
+            <h2>Conversation AI</h2>
+
+        </div>
+
+        <div class="card" onclick="selectAI('Entertainment')">
+
+            <div class="icon">🎭</div>
+
+            <h2>Entertainment AI</h2>
+
+        </div>
+
+        <div class="card" onclick="selectAI('Health')">
+
+            <div class="icon">❤️</div>
+
+            <h2>Health AI</h2>
+
+        </div>
+
+        <div class="card" onclick="selectAI('Memory')">
+
+            <div class="icon">🧠</div>
+
+            <h2>Memory AI</h2>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- ========================= -->
+<!-- Language Screen -->
+<!-- ========================= -->
+
+<div id="languageScreen" class="screen hidden">
+
+    <h1 class="languageTitle">
+
+        Select Language
+
+    </h1>
+
+    <div class="languageGrid">
+
+        <div class="languageCard"
+        onclick="chooseLanguage('English')">
+
+            🇺🇸
+            <span>English</span>
+
+        </div>
+
+        <div class="languageCard"
+        onclick="chooseLanguage('Hindi')">
+
+            🇮🇳
+            <span>Hindi</span>
+
+        </div>
+
+        <div class="languageCard"
+        onclick="chooseLanguage('Bhojpuri')">
+
+            🎙️
+            <span>Bhojpuri</span>
+
+        </div>
+
+        <div class="languageCard"
+        onclick="chooseLanguage('Marathi')">
+
+            🌸
+            <span>Marathi</span>
+
+        </div>
+
+        <div class="languageCard"
+        onclick="chooseLanguage('Tamil')">
+
+            🛕
+            <span>Tamil</span>
+
+        </div>
+
+        <div class="languageCard"
+        onclick="chooseLanguage('Bengali')">
+
+            🐯
+            <span>Bengali</span>
+
+        </div>
+
+    </div>
+
+</div>
+<!-- ========================= -->
+<!-- Reception AI Screen -->
+<!-- ========================= -->
+
+<div id="receptionScreen" class="screen hidden">
+
+    <div class="bg-grid"></div>
+
+    <div class="scan-line"></div>
+
+    <div class="ai-orb"></div>
+
+    <div class="ring ring1"></div>
+    <div class="ring ring2"></div>
+    <div class="ring ring3"></div>
+
+    <div id="particles"></div>
+
+    <!-- Top Bar -->
+
+    <div class="top-bar">
+
+        <div class="logo">
+
+            NOVABOT AI
+
+        </div>
+
+        <div class="status">
+
+            ● ONLINE
+
+        </div>
+
+    </div>
+
+    <!-- AI Core -->
+
+    <div class="ai-core">
+
+        <h1>NOVABOT AI CORE</h1>
+
+        <p>Artificial Intelligence Active</p>
+
+    </div>
+
+    <!-- Left Panel -->
+
+    <div class="left-panel">
+
+        <h2>Reception AI</h2>
+
+        <p>School Information</p>
+        <p>Admission Support</p>
+        <p>Student Queries</p>
+        <p>Faculty Details</p>
+        <p>Fee Assistance</p>
+
+    </div>
+
+    <!-- Right Panel -->
+
+    <div class="right-panel">
+
+        <h2>System Status</h2>
+
+        <div class="statusBox">
+
+            AI Core : ACTIVE
+
+        </div>
+
+        <div class="statusBox">
+
+            Voice Engine : READY
+
+        </div>
+
+        <div class="statusBox">
+
+            Memory : ONLINE
+
+        </div>
+
+        <div class="statusBox">
+
+            Language : READY
+
+        </div>
+
+    </div>
+
+    <!-- Bottom -->
+
+    <div class="bottomText">
+
+        Reception AI Ready
+
+    </div>
+
+    <!-- ========================= -->
+    <!-- Reception Chat -->
+    <!-- ========================= -->
+
+    <div class="reception-chat">
+
+        <!-- Messages -->
+
+        <div id="receptionMessages"
+             class="reception-chat-box">
+
+        </div>
+
+        <!-- Input -->
+
+        <div class="reception-chat-input">
+
+            <input
+
+                id="receptionInput"
+
+                type="text"
+
+                placeholder="Ask about admission, fees, teachers..."
+
+            >
+
+            <button
+                onclick="sendReceptionMessage()">
+
+                Send
+
+            </button>
+
+            <button
+
+                id="micButton"
+
+                onclick="startListening()">
+
+                🎤
+
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+<!-- ========================= -->
+<!-- Conversation AI Screen -->
+<!-- ========================= -->
+
+<div id="conversationScreen" class="screen hidden">
+
+    <div class="conv-bg"></div>
+
+    <div class="conv-header">
+
+        <h1>
+
+            Conversation AI
+
+        </h1>
+
+        <div class="status">
+
+            ● ONLINE
+
+        </div>
+
+    </div>
+
+    <!-- AI Orb -->
+
+    <div class="conversation-orb"></div>
+
+    <!-- Chat Messages -->
+
+    <div id="conversationMessages"
+         class="chat-box">
+
+    </div>
+
+    <!-- Chat Input -->
+
+    <div class="chat-input">
+
+        <input
+
+            id="conversationInput"
+
+            type="text"
+
+            placeholder="Type your message..."
+
+        >
+
+        <button
+
+            onclick="sendConversationMessage()">
+
+            Send
+
+        </button>
+
+        <button
+
+            id="conversationMic"
+
+            onclick="startListening()">
+
+            🎤
+
+        </button>
+
+    </div>
+
+</div>
+
+<!-- ========================= -->
+<!-- JavaScript -->
+<!-- ========================= -->
+
+<script src="script.js"></script>
+
+</body>
+
+</html>     

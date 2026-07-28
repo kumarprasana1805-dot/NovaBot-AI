@@ -1,0 +1,73 @@
+{
+  "principal": [
+    "principal",
+    "who is principal",
+    "principal name",
+    "tell me principal",
+    "meet principal",
+    "head of school"
+  ],
+
+  "vicePrincipal": [
+    "vice principal",
+    "vice principal name",
+    "assistant principal"
+  ],
+
+  "teacher": [
+    "teacher",
+    "teachers",
+    "teacher name",
+    "who is teacher",
+    "faculty",
+    "faculty name",
+    "staff",
+    "physics teacher",
+    "chemistry teacher",
+    "math teacher",
+    "mathematics teacher",
+    "biology teacher",
+    "english teacher",
+    "hindi teacher",
+    "computer teacher",
+    "science teacher",
+    "social science teacher",
+    "sst teacher"
+  ],
+
+  "schoolTiming": [
+    "school timing",
+    "timing",
+    "school time",
+    "opening time",
+    "closing time"
+  ],
+
+  "fees": [
+    "fees",
+    "fee",
+    "admission fee",
+    "tuition fee"
+  ],
+
+  "transport": [
+    "transport",
+    "bus",
+    "school bus",
+    "transport facility"
+  ],
+
+  "address": [
+    "address",
+    "location",
+    "where is school",
+    "school location"
+  ],
+
+  "phone": [
+    "phone",
+    "contact",
+    "contact number",
+    "mobile number"
+  ]
+}

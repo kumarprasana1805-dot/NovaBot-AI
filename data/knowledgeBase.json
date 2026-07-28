@@ -1,0 +1,65 @@
+{
+  "school": {
+    "name": "Sunbeam School Ballia",
+    "tagline": "Duty, Devotion and Discipline",
+    "address": "Agarsand Road, Ballia",
+    "city": "Ballia",
+    "state": "Uttar Pradesh",
+    "pincode": "277001",
+    "principal": "Arpita Singh",
+    "vicePrincipal": "Pankaj",
+    "schoolTiming": "7:20 AM to 2:00 PM",
+    "phone": "",
+    "email": "",
+    "website": ""
+  },
+
+  "transport": {
+    "available": "Yes",
+    "routes": [],
+    "transportIncharge": "T.I Sir",
+    "phone": "8293482921"
+  },
+
+  "teachers": {
+    "principal": "Arpita Singh",
+    "vicePrincipal": "Pankaj",
+    "physics": "Avinash Sir",
+    "chemistry": "Anup Sir",
+    "biology": "",
+    "mathematics": "Sandeep Sir",
+    "english": "Arvind Sir and R. V. Singh Sir",
+    "hindi": "Monika Ma'am",
+    "computer": "Rajkumar Sir",
+    "sports": "Manikat Sir",
+    "aiAndRobotics": "Amit Sir and Abhimanyu Sir",
+    "director": "Kunwar Arun Singh"
+  },
+
+  "fees": {
+    "nursery": "2500 rupees per month",
+    "lkg": "3025 rupees per month",
+    "ukg": "3025 rupees per month",
+
+    "class1": "3285 rupees per month",
+    "class2": "3285 rupees per month",
+    "class3": "3430 rupees per month",
+    "class4": "3430 rupees per month",
+    "class5": "3430 rupees per month",
+
+    "class6": "3670 rupees per month",
+    "class7": "3670 rupees per month",
+    "class8": "3930 rupees per month",
+
+    "class9": "4365 rupees per month",
+    "class10": "4365 rupees per month",
+
+    "class11Science": "5300 rupees per month",
+    "class11Commerce": "5095 rupees per month",
+    "class11Arts": "5095 rupees per month",
+
+    "class12Science": "5300 rupees per month",
+    "class12Commerce": "5095 rupees per month",
+    "class12Arts": "5095 rupees per month"
+  }
+}
