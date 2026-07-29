@@ -150,41 +150,47 @@ function welcomeSpeech() {
     console.log("Welcome Speech Started");
 
     welcomeText.innerHTML =
-    "Welcome to NovaBot Artificial Intelligence";
+        "Jai Hind! Welcome to Sunbeam School Ballia. I am Bali, your Reception Humanoid Robot.";
 
-    const speech =
-    new SpeechSynthesisUtterance(
-        "Welcome to NovaBot Artificial Intelligence."
+    const speech = new SpeechSynthesisUtterance(
+        "Jai Hind! Welcome to Sunbeam School Ballia. I am Bali, your Reception Humanoid Robot.."
     );
 
     speech.lang = "en-US";
     speech.rate = 0.9;
     speech.pitch = 1;
 
-    speechSynthesis.cancel();
+    speech.onend = () => {
 
-    try {
-
-        speechSynthesis.speak(speech);
-
-    } catch (e) {
-
-        console.log(e);
-
-    }
-
-    console.log("Timer Started");
-
-    setTimeout(() => {
-
-        console.log("Loading Started");
+        console.log("Speech Finished");
 
         startLoading();
 
-    }, 4000);
+    };
+
+    speech.onerror = () => {
+
+        console.log("Speech Error");
+
+        startLoading();
+
+    };
+
+    speechSynthesis.cancel();
+    speechSynthesis.speak(speech);
+
+    // Safety fallback
+    setTimeout(() => {
+
+        if (!loadingScreen.classList.contains("hidden")) return;
+
+        console.log("Fallback Loading");
+
+        startLoading();
+
+    }, 5000);
 
 }
-
 // ======================================================
 // Loading Screen
 // ======================================================
@@ -244,7 +250,7 @@ function showModeSelection() {
 
     speak(
 
-        "Please select an Artificial Intelligence mode."
+        "Please select an Artificial Intelligence mode according your choice."
 
     );
 
@@ -393,7 +399,7 @@ async function startReceptionAI() {
 
     speak(
 
-        "Reception AI Activated. Welcome. How may I help you today?"
+        "Jai Hind. I am Bali, the Reception Humanoid Robot of Sunbeam School Ballia. How may I help you today?"
 
     );
 
@@ -486,7 +492,7 @@ function showReceptionWelcome() {
 
     addReceptionMessage(
 
-        "👋 Hello! Welcome to NovaBot Reception AI.<br><br>I can help you with:<br>• Admissions<br>• Fees<br>• Teachers<br>• School Timing<br>• Transport<br>• Contact Information",
+        "👋 Hello! Welcome to Balia humoid Reception AI.<br><br>I can help you with:<br>• Admissions<br>• Fees<br>• Teachers<br>• School Timing<br>• Transport<br>• Contact Information",
 
         "bot"
 
@@ -780,7 +786,7 @@ function receptionReply(question) {
 
         case "greeting":
 
-            return "Hello 👋 Welcome to NovaBot Reception AI. How may I help you today?";
+            return "Hello 👋 Welcome to bali a humoid Reception AI. How may I help you today?";
 
         // ==========================
         // Goodbye
@@ -1064,7 +1070,7 @@ function startConversationAI() {
 
     addConversationMessage(
 
-        "👋 Hello! I am NovaBot Conversation AI.<br><br>You can ask me anything.",
+        "👋 Hello! I am  bali Conversation AI.<br><br>You can ask me anything.",
 
         "bot"
 
@@ -1463,7 +1469,7 @@ function restartConversation(){
 
     addConversationMessage(
 
-        "👋 Hello! I am NovaBot Conversation AI.<br><br>How can I help you today?",
+        "👋 Hello! I am bali Conversation AI.<br><br>How can I help you today?",
 
         "bot"
 

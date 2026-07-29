@@ -7,8 +7,8 @@
     "state": "Uttar Pradesh",
     "pincode": "277001",
     "principal": "Arpita Singh",
-    "vicePrincipal": "Pankaj",
-    "schoolTiming": "7:20 AM to 2:00 PM",
+    "vice Principal": "Pankaj",
+    "school Timing": "7:20 AM to 2:00 PM",
     "phone": "",
     "email": "",
     "website": ""
@@ -23,7 +23,7 @@
 
   "teachers": {
     "principal": "Arpita Singh",
-    "vicePrincipal": "Pankaj",
+    "vice Principal": "Pankaj",
     "physics": "Avinash Sir",
     "chemistry": "Anup Sir",
     "biology": "",
@@ -32,7 +32,7 @@
     "hindi": "Monika Ma'am",
     "computer": "Rajkumar Sir",
     "sports": "Manikat Sir",
-    "aiAndRobotics": "Amit Sir and Abhimanyu Sir",
+    "ai And Robotics": "Amit Sir and Abhimanyu Sir",
     "director": "Kunwar Arun Singh"
   },
 
