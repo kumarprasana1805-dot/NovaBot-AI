@@ -1,5 +1,5 @@
 // ======================================================
-// NOVABOT AI
+// Bali AI
 // script.js
 // PART 1
 // Core Initialization
@@ -57,7 +57,7 @@ let chatHistory = [];
 let currentMode = "";
 
 // ======================================================
-// Start NovaBot
+// Start Bali
 // ======================================================
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -208,7 +208,7 @@ function startLoading() {
         "Loading Voice Engine...",
         "Loading Reception AI...",
         "Loading Conversation AI...",
-        "Preparing NovaBot..."
+        "Preparing bali..."
 
     ];
 
@@ -304,7 +304,7 @@ function chooseLanguage(language) {
 
 }
 // ======================================================
-// NOVABOT AI
+// Bali AI
 // PART 2
 // Reception AI Initialization
 // ======================================================
@@ -500,7 +500,7 @@ function showReceptionWelcome() {
 
 }
 // ======================================================
-// NOVABOT AI
+// Bali AI
 // PART 3
 // Reception Chat System
 // ======================================================
@@ -808,7 +808,7 @@ function receptionReply(question) {
 
 }
 // ======================================================
-// NOVABOT AI
+// Bali AI
 // PART 5
 // Voice Recognition
 // ======================================================
@@ -1047,7 +1047,7 @@ function clearReceptionMessages(){
 
 }
 // ======================================================
-// NOVABOT AI
+// Bali AI
 // PART 6
 // Conversation AI
 // ======================================================
@@ -1223,7 +1223,7 @@ function resetConversationHistory(){
 
 }
 // ======================================================
-// NOVABOT AI
+// Bali AI
 // PART 7
 // Groq AI Connection
 // ======================================================
@@ -1366,7 +1366,7 @@ conversationScreen.addEventListener(
 
 );
 // ======================================================
-// NOVABOT AI
+// Bali AI
 // PART 8
 // Common Helper Functions
 // ======================================================
@@ -1547,7 +1547,7 @@ function exitCurrentAI(){
 
 }
 // ======================================================
-// NOVABOT AI
+// Bali AI
 // PART 9
 // Final Initialization
 // ======================================================
@@ -1559,7 +1559,7 @@ function exitCurrentAI(){
 document.addEventListener("DOMContentLoaded", () => {
 
     console.log("=================================");
-    console.log("      NOVABOT AI STARTED");
+    console.log("      Bali AI STARTED");
     console.log("=================================");
 
     console.log("Reception AI : Ready");

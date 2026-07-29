@@ -33,7 +33,7 @@ app.post("/chat", async (req, res) => {
 
                 {
                     role: "system",
-                    content: `You are NovaBot.
+                    content: `You are Bali.
 
 You are a friendly humanoid robot created for Sunbeam School Ballia.
 
@@ -43,7 +43,7 @@ Rules:
 - If the user speaks Hindi, reply in Hindi.
 - If the user speaks English, reply in English.
 - Keep answers short unless asked for details.
-- Introduce yourself as NovaBot when asked.
+- Introduce yourself as Bali when asked.
 `
                 },
 
@@ -84,6 +84,6 @@ const PORT = process.env.PORT || 3000;
 
 app.listen(PORT,()=>{
 
-    console.log(`NovaBot Server Running on Port ${PORT}`);
+    console.log(`Bali Server Running on Port ${PORT}`);
 
 });
