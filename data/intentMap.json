@@ -1,73 +1,103 @@
 {
-  "principal": [
+"greeting": [
+    "hello",
+    "hi",
+    "hey",
+    "good morning",
+    "good afternoon",
+    "good evening",
+    "jai hind",
+    "namaste"
+],
+"goodbye":[
+    "bye",
+    "goodbye",
+    "thank you",
+    "thanks",
+    "see you"
+],
+
+"schoolInfo" :[
+    "school name",
+    "about school",
+    "school",
+    "sunbeam",
+    "where is school"
+],
+"principal":[
     "principal",
-    "who is principal",
-    "principal name",
-    "tell me principal",
-    "meet principal",
-    "head of school"
-  ],
+    "head of school",
+    "principal name"
+],
 
-  "vicePrincipal": [
+"vicePrincipal":[
     "vice principal",
-    "vice principal name",
-    "assistant principal"
-  ],
+    "assistant principal",
+    "vice principal name"
+],
 
-  "teacher": [
+"director":[
+    "director",
+    "director name",
+    "school director"
+],
+"teacher":[
     "teacher",
     "teachers",
-    "teacher name",
-    "who is teacher",
     "faculty",
-    "faculty name",
     "staff",
-    "physics teacher",
-    "chemistry teacher",
-    "math teacher",
-    "mathematics teacher",
-    "biology teacher",
-    "english teacher",
-    "hindi teacher",
-    "computer teacher",
-    "science teacher",
-    "social science teacher",
-    "sst teacher"
-  ],
-
-  "schoolTiming": [
-    "school timing",
-    "timing",
-    "school time",
-    "opening time",
-    "closing time"
-  ],
-
-  "fees": [
-    "fees",
+    "subject teacher",
+    "class teacher"
+],
+"fees":[
     "fee",
-    "admission fee",
-    "tuition fee"
-  ],
-
-  "transport": [
+    "fees",
+    "monthly fee",
+    "school fee",
+    "tuition fee",
+    "admission fee"
+],
+"admission":[
+    "admission",
+    "admission process",
+    "new admission",
+    "apply admission",
+    "admission open"
+],
+"transport":[
     "transport",
     "bus",
     "school bus",
+    "bus service",
     "transport facility"
-  ],
-
-  "address": [
-    "address",
-    "location",
-    "where is school",
-    "school location"
-  ],
-
-  "phone": [
-    "phone",
-    "contact",
-    "contact number",
-    "mobile number"
-  ]
+],
+"facility":[
+    "facility",
+    "facilities",
+    "library",
+    "computer lab",
+    "robotics lab",
+    "science lab",
+    "sports"
+],
+"documents":[
+    "transfer certificate",
+    "tc",
+    "bonafide",
+    "character certificate",
+    "id card"
+],
+"events":[
+    "holiday",
+    "exam",
+    "sports day",
+    "annual function",
+    "ptm"
+],
+"rules": [
+    "rules",
+    "uniform",
+    "mobile",
+    "discipline"
+]
 }

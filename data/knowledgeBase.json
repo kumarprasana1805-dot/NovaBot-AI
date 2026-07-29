@@ -1,65 +1,291 @@
 {
-  "school": {
-    "name": "Sunbeam School Ballia",
-    "tagline": "Duty, Devotion and Discipline",
-    "address": "Agarsand Road, Ballia",
-    "city": "Ballia",
-    "state": "Uttar Pradesh",
-    "pincode": "277001",
-    "principal": "Arpita Singh",
-    "vice Principal": "Pankaj",
-    "school Timing": "7:20 AM to 2:00 PM",
-    "phone": "",
-    "email": "",
-    "website": ""
-  },
+"school":{
 
-  "transport": {
-    "available": "Yes",
-    "routes": [],
-    "transportIncharge": "T.I Sir",
-    "phone": "8293482921"
-  },
+"name":"Sunbeam School Ballia",
 
-  "teachers": {
-    "principal": "Arpita Singh",
-    "vice Principal": "Pankaj",
-    "physics": "Avinash Sir",
-    "chemistry": "Anup Sir",
-    "biology": "",
-    "mathematics": "Sandeep Sir",
-    "english": "Arvind Sir and R. V. Singh Sir",
-    "hindi": "Monika Ma'am",
-    "computer": "Rajkumar Sir",
-    "sports": "Manikat Sir",
-    "ai And Robotics": "Amit Sir and Abhimanyu Sir",
-    "director": "Kunwar Arun Singh"
-  },
+"tagline":"Duty, Devotion and Discipline",
 
-  "fees": {
-    "nursery": "2500 rupees per month",
-    "lkg": "3025 rupees per month",
-    "ukg": "3025 rupees per month",
+"address":"Agarsand Road, Ballia",
 
-    "class1": "3285 rupees per month",
-    "class2": "3285 rupees per month",
-    "class3": "3430 rupees per month",
-    "class4": "3430 rupees per month",
-    "class5": "3430 rupees per month",
+"city":"Ballia",
 
-    "class6": "3670 rupees per month",
-    "class7": "3670 rupees per month",
-    "class8": "3930 rupees per month",
+"state":"Uttar Pradesh",
 
-    "class9": "4365 rupees per month",
-    "class10": "4365 rupees per month",
+"pincode":"277001",
 
-    "class11Science": "5300 rupees per month",
-    "class11Commerce": "5095 rupees per month",
-    "class11Arts": "5095 rupees per month",
+"timing":"7:20 AM - 2:00 PM",
 
-    "class12Science": "5300 rupees per month",
-    "class12Commerce": "5095 rupees per month",
-    "class12Arts": "5095 rupees per month"
-  }
+"workingDays":"Monday to Saturday"
+
+},
+"management":{
+
+"principal":{
+
+"name":"Arpita Singh"
+
+},
+
+"vicePrincipal":{
+
+"name":"Pankaj"
+
+},
+
+"director":{
+
+"name":"Kunwar Arun Singh"
+
 }
+
+},
+"teachers":{
+
+"physics":{
+
+"name":"Avinash Sir"
+
+},
+
+"chemistry":{
+
+"name":"Anup Sir"
+
+},
+
+"biology":{
+
+"name":""
+
+},
+
+"mathematics":{
+
+"name":"Sandeep Sir"
+
+},
+
+"english":{
+
+"name":"Arvind Sir and R.V. Singh Sir"
+
+},
+
+"hindi":{
+
+"name":"Monika Ma'am"
+
+},
+
+"computer":{
+
+"name":"Rajkumar Sir"
+
+},
+
+"sports":{
+
+"name":"Manikat Sir"
+
+},
+
+"aiRobotics":{
+
+"name":"Amit Sir and Abhimanyu Sir"
+
+}
+
+},
+"fees":{
+
+"nursery":{
+
+"monthly":"2500"
+
+},
+
+"lkg":{
+
+"monthly":"3025"
+
+},
+
+"ukg":{
+
+"monthly":"3025"
+
+},
+
+"class1":{
+
+"monthly":"3285"
+
+},
+
+"class2":{
+
+"monthly":"3285"
+
+},
+
+"class3":{
+
+"monthly":"3430"
+
+},
+
+"class4":{
+
+"monthly":"3430"
+
+},
+
+"class5":{
+
+"monthly":"3430"
+
+},
+
+"class6":{
+
+"monthly":"3670"
+
+},
+
+"class7":{
+
+"monthly":"3670"
+
+},
+
+"class8":{
+
+"monthly":"3930"
+
+},
+
+"class9":{
+
+"monthly":"4365"
+
+},
+
+"class10":{
+
+"monthly":"4365"
+
+},
+
+"class11Science":{
+
+"monthly":"5300"
+
+},
+
+"class11Commerce":{
+
+"monthly":"5095"
+
+},
+
+"class11Arts":{
+
+"monthly":"5095"
+
+},
+
+"class12Science":{
+
+"monthly":"5300"
+
+},
+
+"class12Commerce":{
+
+"monthly":"5095"
+
+},
+
+"class12Arts":{
+
+"monthly":"5095"
+
+}
+
+},
+"admission":{
+
+"status":"Open",
+
+"minimumAge":"3 Years",
+
+"entranceExam":"No",
+
+"requiredDocuments":[
+
+"Birth Certificate",
+
+"Aadhar Card",
+
+"Passport Size Photo",
+
+"Transfer Certificate"
+
+]
+
+},
+"transport":{
+
+"available":"Yes",
+
+"incharge":"T.I Sir",
+
+"phone":"8293482921"
+
+},
+"facilities":{
+
+"library":"Available",
+
+"computerLab":"Available",
+
+"roboticsLab":"Available",
+
+"smartClass":"Available",
+
+"sports":"Available",
+
+"medicalRoom":"Available",
+
+"cctv":"Available"
+
+},
+"documents":{
+
+"transferCertificate":"Available",
+
+"characterCertificate":"Available",
+
+"bonafideCertificate":"Available",
+
+"idCard":"Available"
+
+},
+"contacts":{
+
+"phone":"",
+
+"email":"",
+
+"website":""
+
+},
+"events":{
+
+"ptm":"",
+
+"annualFunction":"",
+
+"sportsDay":""
+
+}}

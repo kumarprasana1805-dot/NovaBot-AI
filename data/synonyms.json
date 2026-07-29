@@ -1,0 +1,251 @@
+{
+"physics":[
+"physics",
+"physics teacher",
+"physics faculty",
+"phy",
+"physics sir"
+],
+
+"chemistry":[
+"chemistry",
+"chem teacher",
+"chemistry faculty",
+"chem"
+],
+
+"biology":[
+"biology",
+"bio",
+"biology teacher",
+"biology faculty"
+],
+
+"mathematics":[
+"math",
+"maths",
+"mathematics",
+"math teacher",
+"math faculty"
+],
+
+"english":[
+"english",
+"english teacher",
+"english faculty"
+],
+
+"hindi":[
+"hindi",
+"hindi teacher"
+],
+
+"computer":[
+"computer",
+"computer teacher",
+"computer faculty"
+],
+
+"aiRobotics":[
+"ai",
+"robotics",
+"ai teacher",
+"robotics teacher",
+"artificial intelligence",
+"ai and robotics"
+],
+
+  "nursery": [
+"nursery"
+],
+
+"lkg":[
+"lkg"
+],
+
+"ukg":[
+"ukg"
+],
+
+"class1":[
+"class 1",
+"1st",
+"grade 1",
+"first"
+],
+
+"class2":[
+"class 2",
+"2nd",
+"grade 2"
+],
+
+"class3":[
+"class 3"
+],
+
+"class4":[
+"class 4"
+],
+
+"class5":[
+"class 5"
+],
+
+"class6":[
+"class 6"
+],
+
+"class7":[
+"class 7"
+],
+
+"class8":[
+"class 8"
+],
+
+"class9":[
+"class 9"
+],
+
+"class10":[
+"class 10"
+],
+
+"class11Science":[
+"class 11 science",
+"11 science",
+"science 11"
+],
+
+"class11Commerce":[
+"class 11 commerce",
+"11 commerce"
+],
+
+"class11Arts":[
+"class 11 arts",
+"11 arts"
+],
+
+"class12Science":[
+"class 12 science",
+"12 science"
+],
+
+"class12Commerce":[
+"class 12 commerce"
+],
+
+"class12Arts":[
+"class 12 arts"
+],
+"principal":[
+"principal",
+"head",
+"head of school"
+],
+
+"vicePrincipal":[
+"vice principal",
+"assistant principal"
+],
+
+"director":[
+"director",
+"school director"
+],
+"bus":[
+"bus",
+"school bus",
+"transport",
+"vehicle"
+],
+"library":[
+"library"
+],
+
+"computerLab":[
+"computer lab",
+"computer laboratory"
+],
+
+"roboticsLab":[
+"robotics lab",
+"robotics laboratory",
+"ai lab"
+],
+
+"smartClass":[
+"smart class",
+"digital class"
+],
+
+"sports":[
+"sports",
+"playground",
+"games"
+],
+"tc":[
+"tc",
+"transfer certificate"
+],
+
+"bonafide":[
+"bonafide",
+"bonafide certificate"
+],
+
+"character":[
+"character certificate"
+],
+
+"idCard":[
+"id card",
+"identity card"
+],
+"phone":[
+"phone",
+"mobile",
+"contact number"
+],
+
+"email":[
+"email",
+"mail"
+],
+
+"website":[
+"website",
+"web"
+],
+"ptm":[
+"ptm",
+"parent teacher meeting"
+],
+
+"exam":[
+"exam",
+"examination"
+],
+
+"holiday":[
+"holiday",
+"vacation"
+],
+"commonWords":[
+"what",
+"who",
+"is",
+"the",
+"please",
+"tell",
+"me",
+"can",
+"you",
+"give",
+"show",
+"name",
+"of"
+]
+}

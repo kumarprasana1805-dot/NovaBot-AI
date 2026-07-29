@@ -1659,6 +1659,33 @@ function startMemoryAI(){
     alert("Memory AI Coming Soon.");
 
 }
+function normalizeQuestion(question) {
+
+    return question
+        .toLowerCase()
+        .replace(/[^\w\s]/g, "")
+        .replace(/\s+/g, " ")
+        .trim();
+
+}
+{
+facility:"library"
+}
+conversationMemory={
+
+lastIntent:null,
+
+lastSubject:null,
+
+lastClass:null,
+
+lastFacility:null,
+
+lastTeacher:null,
+
+lastPerson:null
+
+}
 
 // ======================================================
 // END OF SCRIPT

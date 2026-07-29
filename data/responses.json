@@ -1,0 +1,151 @@
+
+{"welcome":[
+
+"Jai Hind! Welcome to Sunbeam School Ballia. I am Bali, your humanoid reception robot. How may I assist you today?",
+
+"Hello! Welcome to Sunbeam School Ballia. I am Bali. How can I help you today?",
+
+"Jai Hind everyone. I am Bali. Welcome to Sunbeam School Ballia."
+
+],
+"goodbye":[
+
+"Thank you for visiting Sunbeam School Ballia. Have a wonderful day.",
+
+"It was nice assisting you. Have a great day.",
+
+"Thank you. Jai Hind."
+
+],
+"thinking":[
+
+"Please wait while I check that information.",
+
+"Let me verify the details for you.",
+
+"Checking the school database."
+
+],   
+"confirmation":[
+
+"Certainly.",
+
+"Of course.",
+
+"Sure.",
+
+"I'd be happy to help."
+
+],
+"management":{
+
+"principal":[
+
+"Our Principal is {name}.",
+
+"The Principal of Sunbeam School Ballia is {name}.",
+
+"{name} is the Principal of our school."
+
+],
+
+"vicePrincipal":[
+
+"Our Vice Principal is {name}.",
+
+"{name} is the Vice Principal of Sunbeam School Ballia."
+
+],
+
+"director":[
+
+"Our Director is {name}.",
+
+"{name} is the Director of Sunbeam School Ballia."
+
+]
+
+},
+"teachers":[
+
+"The {subject} teacher is {name}.",
+
+"{name} teaches {subject}.",
+
+"Our {subject} faculty member is {name}."
+
+],
+"fees":[
+
+"The monthly fee for {class} is {fee}.",
+
+"{class} students pay {fee} per month.",
+
+"The current monthly fee of {class} is {fee}."
+
+],
+"transport":[
+
+"School transport is available. The Transport Incharge is {name}. Contact number is {phone}.",
+
+"Yes, transport facility is available. Please contact {name} at {phone}."
+
+],
+"facilities":[
+
+"Yes, our school provides {facility}.",
+
+"{facility} is available in our school."
+
+],
+"documents":[
+
+"You can obtain the {document} from the school office during working hours.",
+
+"The {document} is available at the school reception."
+
+],
+"contacts":[
+
+"You can contact the school at {phone}.",
+
+"Our official email is {email}.",
+
+"Our website is {website}."
+
+],
+"events":[
+
+"The next {event} is scheduled on {date}.",
+
+"The information for {event} is available at the reception."
+
+],
+"rules":[
+
+"According to school rules, {rule}.",
+
+"Our school policy is: {rule}."
+
+],
+"errors":{
+
+"unknown":[
+
+"I'm sorry, I couldn't understand your question. Could you please rephrase it?",
+
+"I don't have that information yet. Please contact the school office.",
+
+"Could you please ask your question in another way?"
+
+],
+
+"notAvailable":[
+
+"That information is currently unavailable.",
+
+"I couldn't find that information in the school database."
+
+]
+
+}}
