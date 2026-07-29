@@ -646,12 +646,12 @@ function receptionReply(question) {
         case "principal":
 
             return "Our Principal is " +
-                knowledge.school.principal;
+                knowledge.management.principal.name;
 
         case "vicePrincipal":
 
             return "Our Vice Principal is " +
-                knowledge.school.vicePrincipal;
+                knowledge.management.vicePrincipal.name;
 
         case "address":
 
@@ -659,15 +659,15 @@ function receptionReply(question) {
 
         case "phone":
 
-            return knowledge.school.phone;
+            return knowledge.contacts.phone;
 
         case "website":
 
-            return knowledge.school.website;
+            return knowledge.contacts.website;
 
         case "schoolTiming":
 
-            return knowledge.school.schoolTiming;
+            return knowledge.school.timing;
                     // ==========================
         // Fees
         // ==========================
@@ -675,61 +675,61 @@ function receptionReply(question) {
         case "fees":
 
             if (question.includes("nursery"))
-                return "Nursery fee is " + knowledge.fees.nursery;
+                return "Nursery fee is " + knowledge.fees.nursery.monthly;
 
             if (question.includes("lkg"))
-                return "LKG fee is " + knowledge.fees.lkg;
+                return "LKG fee is " + knowledge.fees.lkg.monthly;
 
             if (question.includes("ukg"))
-                return "UKG fee is " + knowledge.fees.ukg;
+                return "UKG fee is " + knowledge.fees.ukg.monthly;
 
             if (question.includes("1"))
-                return "Class 1 fee is " + knowledge.fees.class1;
+                return "Class 1 fee is " + knowledge.fees.class1.monthly;
 
             if (question.includes("2"))
-                return "Class 2 fee is " + knowledge.fees.class2;
+                return "Class 2 fee is " + knowledge.fees.class2.monthly;
 
             if (question.includes("3"))
-                return "Class 3 fee is " + knowledge.fees.class3;
+                return "Class 3 fee is " + knowledge.fees.class3.monthly;
 
             if (question.includes("4"))
-                return "Class 4 fee is " + knowledge.fees.class4;
+                return "Class 4 fee is " + knowledge.fees.class4.monthly;
 
             if (question.includes("5"))
-                return "Class 5 fee is " + knowledge.fees.class5;
+                return "Class 5 fee is " + knowledge.fees.class5.monthly;
 
             if (question.includes("6"))
-                return "Class 6 fee is " + knowledge.fees.class6;
+                return "Class 6 fee is " + knowledge.fees.class6.monthly;
 
             if (question.includes("7"))
-                return "Class 7 fee is " + knowledge.fees.class7;
+                return "Class 7 fee is " + knowledge.fees.class7.monthly;
 
             if (question.includes("8"))
-                return "Class 8 fee is " + knowledge.fees.class8;
+                return "Class 8 fee is " + knowledge.fees.class8.monthly;
 
             if (question.includes("9"))
-                return "Class 9 fee is " + knowledge.fees.class9;
+                return "Class 9 fee is " + knowledge.fees.class9.monthly;
 
             if (question.includes("10"))
-                return "Class 10 fee is " + knowledge.fees.class10;
+                return "Class 10 fee is " + knowledge.fees.class10.monthly;
 
             if (question.includes("11 science"))
-                return "Class 11 Science fee is " + knowledge.fees.class11Science;
+                return "Class 11 Science fee is " + knowledge.fees.class11Science.monthly;
 
             if (question.includes("11 commerce"))
-                return "Class 11 Commerce fee is " + knowledge.fees.class11Commerce;
+                return "Class 11 Commerce fee is " + knowledge.fees.class11Commerce.monthly;
 
             if (question.includes("11 arts"))
-                return "Class 11 Arts fee is " + knowledge.fees.class11Arts;
+                return "Class 11 Arts fee is " + knowledge.fees.class11Arts.monthly;
 
             if (question.includes("12 science"))
-                return "Class 12 Science fee is " + knowledge.fees.class12Science;
+                return "Class 12 Science fee is " + knowledge.fees.class12Science.monthly;
 
             if (question.includes("12 commerce"))
-                return "Class 12 Commerce fee is " + knowledge.fees.class12Commerce;
+                return "Class 12 Commerce fee is " + knowledge.fees.class12Commerce.monthly;
 
             if (question.includes("12 arts"))
-                return "Class 12 Arts fee is " + knowledge.fees.class12Arts;
+                return "Class 12 Arts fee is " + knowledge.fees.class12Arts.monthly;
 
             return "Please tell me the class for which you want to know the fee.";
 
@@ -740,19 +740,19 @@ function receptionReply(question) {
         case "teacher":
 
             if (question.includes("physics"))
-                return "Physics teacher is " + knowledge.teachers.physics;
+                return "Physics teacher is " + knowledge.teachers.physics.name;
 
             if (question.includes("chemistry"))
-                return "Chemistry teacher is " + knowledge.teachers.chemistry;
+                return "Chemistry teacher is " + knowledge.teachers.chemistry.name;
 
             if (question.includes("math"))
-                return "Math teacher is " + knowledge.teachers.math;
+                return "Math teacher is " + knowledge.teachers.math.name;
 
             if (question.includes("biology"))
-                return "Biology teacher is " + knowledge.teachers.biology;
+                return "Biology teacher is " + knowledge.teachers.biology.name;
 
             if (question.includes("english"))
-                return "English teacher is " + knowledge.teachers.english;
+                return "English teacher is " + knowledge.teachers.english.name;
 
             return "Please tell me the subject name.";
 
@@ -766,7 +766,7 @@ function receptionReply(question) {
                    knowledge.transport.available +
 
                    ". Transport Incharge : " +
-                   knowledge.transport.transportIncharge +
+                   knowledge.transport.incharge +
 
                    ". Contact Number : " +
                    knowledge.transport.phone;
@@ -778,7 +778,7 @@ function receptionReply(question) {
         case "director":
 
             return "Our Director is " +
-                   knowledge.teachers.director;
+                   knowledge.management.director.name;
 
         // ==========================
         // Greeting
